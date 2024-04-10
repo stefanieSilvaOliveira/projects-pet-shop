@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" ,sans-serif;
+}
+
+
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 500px;
+    cursor: pointer;
+}
+
+header .logo-pet{
+    font-size: 35px;
+    margin-left: -400px;
+    font-weight: 600;
+    color: #000;
+}
+
+header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header li{
+    
+    font-size: 20px;
+    font-family: 'Nome';
+    font-weight: 300;
+    color: #212121;
+    margin: 20px 80px 20px 20px;
+    cursor: pointer;    
+}
+
+header li:active{
+    transform: scale(0.95); 
+    opacity: 0.5;
+}
+
+.button-cadastro{
+    background-color: #FFF;
+    width: 150px;
+    height: 45px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 3px #000;
+}
+
+.button-cadastro:hover{
+    background: #FAF7E6;
+}
+
+.button-cadastro:active{
+          transform: scale(0.95); 
+          opacity: 0.2;
+}
+
+.formulario-cadastro{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          margin-top: 50px; 
+          margin-right: 200px;  
+          border-radius: 20px; 
+}
+
+.formulario-cadastro h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nome';
+}
+
+.formulario-cadastro input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+}
+
+.formulario-cadastro button{
+    display: flex;
+    width: 200px;
+    height: 45px;
+    margin-left: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    background: #FFF;
+    border: solid 2px #000;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+  
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #92e27a; 
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    width: 500px;
+    margin-top: 130px;
+    font-family: 'Nome';
+    font-weight: 600;
+    font-size: 40px;
+      
+}
+
+main img{
+    margin-left: 900px;
+    margin-right: 30px;
+    margin-top: -200px;
+}
+
+main .button-tela{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 200px;
+    gap: 20px;
+}
+
+.button-contato{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 600;
+    display: inline-block;
+    border: none;
+    background: #000;  
+    cursor: pointer;
+}
+
+
+.button-chamada{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    background-color: #FFF;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+    cursor: pointer;
+    
+}
+
+.container-itens{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-content: center; 
+    margin-left: 250px;
+    
+}
+
+.container-itens img{
+  height: 400px;
+  width: 300px;
+}
+
+.container-itens h1{
+    font-family: 'Nome';
+    margin-top: 60px;
+}
+
+.container-itens p{
+   font-size: 22px;
+   font-weight: 300;
+   margin-top: 15px;
+}
+
+.container-itens button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 80px;
+      width: 150px;
+      height: 40px;
+      background: #22bb22;
+      border-radius: 10px;
+      border: none;
+      font-size: 17px;
+      font-weight: 600;
+      color: #FFF;
+      cursor: pointer;
+}
+
+.container-itens button:active{  
+        opacity: 0.2;
+}
+
+.container-itens button:hover{
+       background: #008631;
+}
+
+
+.container-principal{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    background: #FAF7E6;
+    margin-bottom: 300px;
+ }
+
+.container-principal h1{
+    font-family: 'Nome';
+    font-size: 40px;
+    width: 600px;
+    color: #000;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 700px;
+}
+
+.container-principal img{
+   
+   display: flex;
+   margin-top: 20px;
+  
+}
+
+.container-principal .dog-caramelo-cachos{
+    display: inline-block;
+    margin-left: -1600px;
+    margin-top: -800px;
+}
+
+
+.container-principal ul{
+    display: inline-block;
+    margin-top: 200px;
+    margin-right: 200px;
+    list-style: none;
+}
+
+.container-principal li{
+    text-align: center;
+    margin-right: 30px;
+}
+
+.container-principal h2{
+      font-family: 'Nome';
+      color: #22bb22;
+}
+
+.container-principal p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #212121;
+}
+
+@font-face {
+    font-family: 'Nome';
+    src: url("./fonts/KGRedHands.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (max-width: 501px){
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: first baseline;
+        margin-left: -50px;  
+    }
+
+    header ul{
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+        margin-top: 20px;
+        
+    }
+
+    header li{
+        display: flex;
+        justify-content: center;
+        margin: 15px 10px;
+    }
+
+   header .logo-pet{
+        font-size: 25px;
+        text-align: start;
+        margin-left: 50px;
+        color:#008631;  
+    }
+     
+    .button-cadastro{
+        width: 100px;
+        margin-top: 10px;
+        font-size: 16px;
+        background-color: #22bb22;
+        border: none;
+        color: #FFF;
+      
+    }
+     
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+        height: 100%;
+        background-color: #92e27a;
+    }
+
+    main h1{
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 350px;
+        margin-top: 40px;
+        width: 300px;
+    }
+
+    main img{
+        display: none;
+    }
+   
+    main .button-tela{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-right: 150px;
+        margin-left: 150px;
+        margin-bottom: 30px;
+        gap: 20px;
+    }
+    
+    .button-contato{
+        width: 120px;
+        margin-top: 20px;
+        font-size: 17px;
+        border-radius: 10px;
+      
+    }
+
+    .button-chamada{
+        width: 120px;
+        margin-top: 20px;
+        font-size: 17px;
+        border-radius: 10px;
+       
+    }
+
+    .container-itens{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    justify-content: center; 
+    margin-left: 40px;
+    background-color: #FFF;
+        
+    }
+
+    .container-itens img{
+        height: 250px;
+        width: 200px;
+      }
+
+      .container-itens h1{
+           font-size: 20px;
+           margin-top: 10px;
+      }
+
+      .container-itens p{
+        font-size: 18px;
+      }
+
+      .container-itens button{
+        width: 120px;
+        font-size: 15px;
+        margin-left: 20px;
+      }
+
+      .container-principal{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 60px;
+        background-color: #FFF;
+      }
+
+    .container-principal .dog-caramelo-cachos{
+        display: none;
+    }
+
+   .container-principal img{
+    display: none;
+   }
+
+   .container-principal h1{
+        display: none;
+   }
+
+   .container-principal ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.container-principal li{
+    text-align: center;
+    margin-right: 30px;
+}
+
+.container-principal h2{
+      font-family: 'Nome';
+      color: #22bb22;
+}
+
+.container-principal p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #212121;
+}
+
+   
+
+
+   
+}
+
+
+
+
+
