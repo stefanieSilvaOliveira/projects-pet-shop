@@ -297,10 +297,6 @@ main .button-tela{
 
 @media (max-width: 501px){
     
-    body{
-        overflow-x: hidden;
-       
-    }
     
     header{
         display: flex;
