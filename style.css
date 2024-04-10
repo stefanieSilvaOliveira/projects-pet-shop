@@ -300,8 +300,8 @@ main .button-tela{
     
     body{
         overflow-x: hidden;
-        max-width: 1200px; 
-        margin: 0 auto;
+        height: auto;
+        width: 100vh;
     }
     
     header{
