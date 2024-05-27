@@ -1,5 +1,5 @@
 <b> Site Petshop🐶🐾</b>
-<br
+<br>
 <br>
 Este é um projeto de um site desenvolvido inspirado em um Petshop,o objetivo desse projeto é colocar em pratica conceitos 
 importantes em um desenvolvimento sem Frameorks.
